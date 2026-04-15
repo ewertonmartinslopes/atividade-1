@@ -1,0 +1,181 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPN9QQ2U7BD7mzB1YH9CY7E",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/ewertonmartinslopes/atividade-1/blob/main/Atividade%202%20-%2014/04/2026\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 0
+        },
+        "id": "h5kZEv3ZH6lS",
+        "outputId": "44484f74-f888-4824-dd12-e4ee4d8ba702"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "digite o seu nome:ewerton martins\n",
+            "o seu nome é: ewerton martins\n"
+          ]
+        }
+      ],
+      "source": [
+        "nome = input('digite o seu nome:')\n",
+        "print('o seu nome é:', nome)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "##### atividade 01\n",
+        "valor1 = int(input('digite o seu valor:'))\n",
+        "valor2 = int(input('digite o seu valor:'))\n",
+        "resultado = valor1 + valor2\n",
+        "print(resultado)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 0
+        },
+        "id": "QohFdQaCKJOi",
+        "outputId": "1228427e-1da8-4dac-87ed-7d6c2371b507"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "digite o seu valor:10\n",
+            "digite o seu valor:10\n",
+            "20\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "###### atividade 2\n",
+        "valor1 = int(input('digite o seu valor: '))\n",
+        "valor = int(input('digte o seu valor: '))\n",
+        "resultado = valor1 - valor2\n",
+        "print(resultado)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 0
+        },
+        "id": "aiJLD8PeOXLb",
+        "outputId": "5012a040-c7a0-4095-ec32-0f435d36908e"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "digite o seu valor: 25\n",
+            "digte o seu valor: 10\n",
+            "15\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "####### atividade 3\n",
+        "valor1 = int(input('digite o seu valor: '))\n",
+        "valor2 = int(input('digte o seu valor: '))\n",
+        "soma = valor1 + valor2\n",
+        "sub = valor1 - valor2\n",
+        "mult = valor1 * valor2\n",
+        "div = valor1 / valor2\n",
+        "print(\"soma é:\", soma)\n",
+        "print(\"subtração é:\", sub)\n",
+        "print(\"multiplicação é:\", mult)\n",
+        "print(\"divisão é:\", div)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 0
+        },
+        "id": "4B-2TKpVNJaV",
+        "outputId": "447e0190-78d8-4c43-bcc0-8a46d61f4413"
+      },
+      "execution_count": 15,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "digite o seu valor: 60\n",
+            "digte o seu valor: 3\n",
+            "soma é: 63\n",
+            "subtração é: 57\n",
+            "multiplicação é: 180\n",
+            "divisão é: 20.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "###### atividade 4\n",
+        "usuario = input('digite seu nome:')\n",
+        "print(\"olá,\", usuario, 'Seja bem vindo!')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "yDlcEeYyZv9n",
+        "outputId": "c063e59b-314c-4497-b2e5-6a289e04eefa"
+      },
+      "execution_count": 18,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "digite seu nome:ewerton martins\n",
+            "olá, ewerton martins Seja bem vindo!\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
